@@ -83,6 +83,10 @@ button:hover {
   background-color: #FB5362;
 }
 
+section {
+  animation: slideIn .8s linear;
+}
+
 @keyframes slideIn {
   0% {transform: translate(400px);}
   60% {transform: translate(-50px);}
