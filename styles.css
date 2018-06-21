@@ -83,17 +83,9 @@ button:hover {
   background-color: #FB5362;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes slideIn {
+  0% {transform: translate(400px);}
+  60% {transform: translate(-50px);}
+  80% {transform: translate(10px);}
+  100% {transform: translate(0);}
+}
