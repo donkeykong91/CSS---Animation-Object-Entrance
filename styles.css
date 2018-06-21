@@ -84,7 +84,7 @@ button:hover {
 }
 
 section {
-  animation: slideIn .8s linear;
+  animation: slideIn .8s linear, fadeIn .2s ease-in;
 }
 
 @keyframes slideIn {
@@ -104,4 +104,9 @@ section {
     transform: translateY(0);
     animation-timing-function: ease-in;
   }
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
